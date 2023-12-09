@@ -1,5 +1,9 @@
 from flask import Flask, render_template, request
 import requests
+import os
+os.environ['CURL_CA_BUNDLE'] = ''
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 app = Flask(__name__)
 @app.route("/")
