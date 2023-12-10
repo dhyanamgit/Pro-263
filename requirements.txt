@@ -10,4 +10,4 @@ numpy
 urllib3
 os-sys==2.1.4
 PySimpleGUI==4.60.5
-text-editor==1.4.1
+texteditor==1.4.1
