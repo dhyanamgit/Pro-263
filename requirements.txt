@@ -8,4 +8,4 @@ Werkzeug==1.0.1
 requests==2.7.0
 numpy
 urllib3
-os-sys
+os-sys==2.1.4
